@@ -1,0 +1,32 @@
+
+1. Before we create Ibuprofen or any of the other medicines extend Medicine 
+using implementation inheritance, why did't we just make the 
+minimumTemperature and maximumTemperature instance variables? I think I missed 
+something that would explain why but I since you are already able to give it a 
+name, why not two other variables? We could also make them constant (I assume 
+that theres a way to set them in the constructor but not add mutators so they 
+stay constant) or give them mutators to change. This would require less files 
+but also require more in the main in order to instantiate each of these 
+idividually (this is where I think I missed something). 
+
+2. Additionally with the way they are written in each class, is it possible to
+mutate the values of the max and min temperatures or would they have to be 
+written if mutating was expected? just curious.
+
+3. In one of the steps we change the Medicine class to an abstract class. Part 
+of the README mentions that if something wants to be a Medicine it would have 
+to specifically have its own implementation of any methods it has that are also 
+abstract. So I'm slightly confused on the difference of making an abstact class 
+vs. method. Does that just mean that an abstact class cannot be instantiated or 
+is there more power to it?
+
+4. I've never seen reflection before, but I'm curious what benefits it provides 
+over using conditional statements/interfaces, or what situations it was 
+specifically created for (ones where conditionals/interfaces might not be an 
+option/are a hassle to deal with)?
+
+5. Interfaces are introduced at the end briefly, but I'm curious what the 
+difference/benefit of them is as compared to an abstract class that only 
+contains abstract methods and just doesn't have any fields. Is that all they
+are? Or is there more to their inheritance that wasn't introduced? 
+5b. Do they not have fields for a reason? 
